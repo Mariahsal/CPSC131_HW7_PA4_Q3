@@ -1,4 +1,8 @@
-
+/**
+ * PROBLEM 10: Number of Islands
+ * MARIAH SALGADO
+ * WILLIAM LUA
+ **/
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
