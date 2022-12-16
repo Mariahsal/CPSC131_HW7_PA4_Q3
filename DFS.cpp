@@ -27,9 +27,9 @@ private:
             return;                                                    // If so, set gride to 0
         }
         grid[i][j] = '0';
-        eraseIslands(grid, i - 1, j);// Looking UP 1 cell above as our starting point
-        eraseIslands(grid, i + 1, j);// Looking DOWN 1 cell below as our starting point
-        eraseIslands(grid, i, j - 1);// Looking LEFT 1 cell next to us as our starting point
-        eraseIslands(grid, i, j + 1);// Looking RIGHT 1 cell next to us as our starting point
+        eraseIslands(grid, i - 1, j);// UP 1 cell above as our starting point
+        eraseIslands(grid, i + 1, j);// DOWN 1 cell below as our starting point
+        eraseIslands(grid, i, j - 1);// LEFT 1 cell next to us as our starting point
+        eraseIslands(grid, i, j + 1);// RIGHT 1 cell next to us as our starting point
     }
 };
